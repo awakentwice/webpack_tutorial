@@ -1,0 +1,21 @@
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.list {
+  display: none;
+}
+
+.open > .title {
+  text-decoration: underline;
+}
+
+.open > .list {
+  display: block;
+}
+
+.menu {
+  border-bottom: 1px solid #ececec;
+}
